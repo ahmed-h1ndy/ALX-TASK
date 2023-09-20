@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ALX TASK</string>
+    <string name="name">Name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="balance">Balance</string>
+    <string name="_0000000">0000000</string>
+    <string name="transfer">Transfer</string>
+    <string name="pick_one">Pick One</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_one"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="32sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"/>
+    <ImageView
+
+        android:id="@+id/first"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/second"
+        app:layout_constraintTop_toBottomOf="@id/choose"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icons8_arsenal_fc"
+        android:layout_weight="1"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <ImageView
+        android:id="@+id/second"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choose"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/icons8_chelsea_fc"
+        android:layout_weight="1" />
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:id="@+id/third"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/fourth"
+        app:layout_constraintTop_toBottomOf="@id/first"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icons8_manchester_united"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1" />
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:id="@+id/fourth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icons8_manchester_united"
+        android:layout_weight="1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
